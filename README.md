@@ -16,6 +16,9 @@ This project focuses on bringing all data structures and algorithms in one place
 * **Under no circumstances create new folders within the language folders to upload your code unless specifically told to do so**.
 * Make sure to go through the issue and PR template before contributing 
 
+# Code of Conduct
+*You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
+
 <h2 align="center"> 
 Happy Coding
  </h2>
