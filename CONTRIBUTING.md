@@ -5,6 +5,6 @@
 - Add relevant comments explaining what the code is all about (if possible write the Time and Space complexities)
 - Code should be properly formatted and indented
 - If you have anything else in mind, create an issue, and please wait for it to be assigned to you. You can then start working on it and create a PR.
-- Make sure to go through the issue and PR template before contributing
+- Make sure to go through the [issue template](https://github.com/Rj-coder-iitian/Beta-Algo/issues/1) and PR template before contributing
 
 For any issues feel free to contact on our emails ([rj17@iitbbs.ac.in](rj17@iitbbs.ac.in) & [ag41@iitbbs.ac.in](ag41@iitbbs.ac.in)).
