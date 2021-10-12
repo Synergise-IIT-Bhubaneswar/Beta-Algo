@@ -1,3 +1,13 @@
+/*Binary search is an efficient approach to search a particular element from a sorted array of numbers.
+
+You have a sorted array consisting of X elements, and you input the value to be found in it. The algorithm compares your input value with the key value of the array's middle element.
+So here we have the following 3 scenarios:
+
+1)If input key value matches the key value of the middle element, then its index is returned.
+2)If input key value is lesser than the key value of middle element, then we do a search on the sub array to the left of the middle element.
+3)Similarly if the input key value is greater than key value of middle element, then we do a search on the sub array to the right of the middle element.*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
