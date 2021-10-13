@@ -26,27 +26,49 @@ def main():
         array.append(int(input()))
     print("please enter the key element :")    
     x=int(input())         # the key is taken as input
-    print(LinearSearch(array,x))    # linear search is called  and the result is printed
+    print()
+    ans=LinearSearch(array,x)    # linear search is called  and the result is stored
+    if ans==-1:
+        print("element is not found")
+    else:
+        print(f'the element is found at index {ans}')    
+
 
 main()
 
 
 """"
-SAMPLE INPUT:
+Example Test Cases:
+1)
+
+please enter the size of the array :
 5
+please enter the elements of the array :
 1
-5
-7
 2
-9
+3
+4
+5
+please enter the key element :
+4
+
+the element is found at index 3
+
+2)
+
+please enter the size of the array :
+5
+please enter the elements of the array :
+1
+2
+3
+4
+5
+please enter the key element :
 7
-SAMPLE OUTPUT:
-Enter the size of array : Enter elements :
-The elements entered are:
-[1, 5, 7, 2, 9]
-The sorted array is:
-[1, 2, 5, 7, 9]
-Enter the element to be searched: Element found at index 3
+
+element is not found
+
 Time Complexity  : O(n)
 Space Complexity : O(1)
 """        
