@@ -90,6 +90,22 @@ the element is found at index 3
 
 2)
 
+please enter the size of the array :
+5
+please enter the elements of the array :
+1
+2
+3
+4
+5
+please enter the key element :
+7
+
+The ans obtained by iterative binary search is:
+element is not found
+
+The ans obtained by recursive binary search is:
+element is not found
 
 
 Time Complexity  : O(logn)
