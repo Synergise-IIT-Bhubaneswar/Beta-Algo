@@ -13,7 +13,7 @@ using namespace std;
 
 //It is assumed that the given array is sorted in ascending order beforehand.
 
-//Iterative Approach: Time Complexity is O(1)
+//Iterative Approach: Time Complexity is O(log(N))
 int binarySearchIterative(int l, int r, int key, int arr[])
 {
 	while(r>=l)
