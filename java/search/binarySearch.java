@@ -98,9 +98,9 @@ public class binarySearch
 Time Complexity: O(log(N))
 Sample I/O:
 INPUT:
-Enter number of elements in the array:
+Enter the length of the array: 
 10
-Enter the elements of array in ascending order:
+Enter the elements of the array in ascending order: 
 2
 4
 6
@@ -111,7 +111,7 @@ Enter the elements of array in ascending order:
 16
 18
 20
-Enter the element to be searched:
+Enter the element to be searched: 
 14
 OUTPUT:
 Iterative Approach: Index of 14 is 6
