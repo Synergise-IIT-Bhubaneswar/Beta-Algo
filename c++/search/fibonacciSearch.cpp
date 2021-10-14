@@ -11,39 +11,47 @@ using namespace std;
 
 int fibonacciSearch(int arr[], int key, int len)
 {
+	// First initialize the first three consecutive Fibonacci numbers
 	int fib1=0;
 	int fib2=1;
 	int fib3=fib1+fib2;
+	// Now, fib3 will store the smallest Fibonacci number that is greater than or equal to the length of the given array
 	while(fib3<len)
 	{
 		fib1=fib2;
 		fib2=fib3;
 		fib3=fib1+fib2;
 	}
-	int offset=-1;
+	int temp=-1;// Used to keep track of the eliminated range from the front
 	while(fib3>1)
 	{
-		int i=min(offset+fib1, len-1);
+		int i=min(temp+fib1, len-1);
+		//If key is greater than the value at index fib1, then we cut the subarray array from temp to i
 		if(arr[i]<key)
 		{
 			fib3=fib2;
 			fib2=fib1;
 			fib1=fib3-fib2;
-			offset=i;
+			temp=i;
 		}
+		//If key is greater than the value at index fib1, then we cut the subarray after i+1
 		else if(arr[i]>key)
 		{
 			fib3=fib1;
 			fib2-=fib1;
 			fib1=fib3-fib2;
 		}
+		//If none of the above conditions is satisfied, then it means that we have found the key at index i
 		else
+		{
 			return i;
+		}
 	}
-	if(fib2 && arr[offset+1]==key)
+	if(fib2 && arr[temp+1]==key)
 	{
-		return offset+1;
+		return temp+1;
 	}
+	// Key not found then return -1
 	return -1;
 }
 
