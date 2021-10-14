@@ -52,3 +52,25 @@ int main()
    else
       cout<<"Element not found in array"<<endl;
 }
+/*
+Time Complexity: O(Square root(N))
+Sample I/O:
+INPUT:
+Enter number of elements in the array:
+10
+Enter the elements of array in ascending order:
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+Enter the element to be searched:
+14
+OUTPUT:
+Index of 14 is 6
+*/
