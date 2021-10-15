@@ -35,14 +35,61 @@ class Tree():  # Tree class
         self.postorder(root.left)
         self.postorder(root.right)
         print(root.val)
-        
+
 # Starting with the main code
 def main():
     tree=Tree()     #creating the Tree object
-    print("Enter the values ot the tree :")
+    print("Enter the values of the tree :")
     tree.root=tree.buildtree()   #buiding the tree
     print("The order of the elements in postorder fashion is given as :")
     tree.postorder(tree.root)
 
 main()            
 
+"""
+EXAMPLE TEST CASES
+
+              1
+1)          /   \
+           2     3
+
+Enter the values ot the tree :
+1
+2
+-1
+-1
+3
+-1
+-1
+The order of the elements in postorder fashion is given as :
+2
+3
+1
+
+2)          1
+          /   \
+         2     3
+       /   \    \
+      4    5     6 
+Enter the values of the tree :
+1
+2
+4
+-1
+-1
+5
+-1
+-1
+3
+-1
+6
+-1
+-1
+The order of the elements in postorder fashion is given as :
+4
+5
+2
+6
+3
+1
+"""

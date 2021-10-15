@@ -33,16 +33,62 @@ class Tree():  # Tree class
         print(root.val)
         self.preorder(root.left)
         self.preorder(root.right)
-        
+
 # Starting with the main code
 def main():
     tree=Tree() #creating the Tree object
-    print("Enter the values ot the tree :")
+    print("Enter the values of the tree :")
     tree.root=tree.buildtree()   #buiding the tree
     print("The order of the elements in preorder fashion is given as :")
     tree.preorder(tree.root)
 
 main()         
 
-# EXAMPLE TEST CASES
+"""
+EXAMPLE TEST CASES
+
+              1
+1)          /   \
+           2     3
+
+Enter the values ot the tree :
+1
+2
+-1
+-1
+3
+-1
+-1
+The order of the elements in preorder fashion is given as :
+1
+2
+3
+
+2)          1
+          /   \
+         2     3
+       /   \    \
+      4    5     6 
+Enter the values of the tree :
+1
+2
+4
+-1
+-1
+5
+-1
+-1
+3
+-1
+6
+-1
+-1
+The order of the elements in preorder fashion is given as :
+1
+2
+4
+5
+3
+6
+"""
 
