@@ -91,4 +91,9 @@ The order of the elements in inorder fashion is given as :
 1
 3
 6
+
+Time Complexity: O(n) 
+Space Complexity: O(1) or O(h) if size of stack of function calls is considered
+Here, h is the height of the tree
+
 """
