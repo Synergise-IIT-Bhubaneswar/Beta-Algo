@@ -28,6 +28,6 @@ Sample Output
 Enter the two numbers:77 121
 GCD=11
 Complexities
-Time Complexity:O(logN)
+Time Complexity: O(log(max(N1, N2))), where N1 and N2 are the numbers whose gcd is being calculated.
 Space Complexity:O(1)
 */
