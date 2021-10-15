@@ -92,4 +92,9 @@ The order of the elements in postorder fashion is given as :
 6
 3
 1
+
+Time Complexity: O(n) 
+Space Complexity: O(1) or O(h) if size of stack of function calls is considered
+Here, h is the height of the tree
+
 """
