@@ -65,3 +65,12 @@ int main() {
 
      return 0;
 }
+
+/*
+Example I/O -
+
+Enter size of array = 10
+Enter elements of array = 2 3 8 19 0 1 2 5 6 22 9
+Sorted array (using bubble sort) = 0 1 2 2 3 5 6 8 19 22
+
+*/

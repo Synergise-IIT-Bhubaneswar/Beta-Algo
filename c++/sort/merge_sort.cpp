@@ -100,3 +100,12 @@ int main() {
 
      return 0;
 }
+
+/*
+Example I/O -
+
+Enter size of array = 10
+Enter elements of array = 4 10 2 0 9 1 3 8 55 20
+Sorted array (using merge sort) = 0 1 2 3 4 8 9 10 20 55
+
+*/
