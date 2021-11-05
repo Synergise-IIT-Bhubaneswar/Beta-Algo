@@ -1,8 +1,5 @@
 //Fenwick Tree(Binary Indexed Tree)
 //Make a structure to handle Dynamic Range queries
-#include<bits/stdc++.h>
-#define ll long long int 
-using namespace std;
 /*
 LSB-Least Significant Bit
 it is the rightmost set Bit in the Binary representation of a number.
@@ -21,6 +18,10 @@ How to find Two's complement?
 
 Hence LSB= num & (-num)
 */
+
+#include<bits/stdc++.h>
+#define ll long long int 
+using namespace std;
 
 class Fenwick
 { 
