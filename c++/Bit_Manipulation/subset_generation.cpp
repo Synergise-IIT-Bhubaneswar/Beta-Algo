@@ -1,8 +1,5 @@
 //Subset Generation using Bitmasks
 //Print all the subsets of a given array of n elements n<=20
-#include<bits/stdc++.h>
-using namespace std;
-#define ll long long int
 
 /*
     Each element of set can be either chosen or not chosen so for each element we have 2 choices(to take or not take)
@@ -12,6 +9,11 @@ using namespace std;
     so by each integer's binary representation represents a unique subset of the original set.
     when the integer is from [0,2^n-1]
 */
+
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long int
+
 //Time-Compleity => O(n*(2^n))  //n is the size of original set
 vector<vector<int>> subsets_generate(vector<int>& arr) 
 {
