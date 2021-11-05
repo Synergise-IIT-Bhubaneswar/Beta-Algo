@@ -1,7 +1,4 @@
 //Modular exponentation and Modular Multiplication
-#include<bits/stdc++.h>
-using namespace std;
-#define MOD 1000000007
 
 /*
     Modular Exponentiation is used to calculate 
@@ -44,6 +41,10 @@ using namespace std;
     This expression is implemented to calculate the value of (a*b) mod M
 
 */
+
+#include<bits/stdc++.h>
+using namespace std;
+#define MOD 1000000007
 
 //Modular Exponentiation function such that 0<=a,b,M<=10^9
 //Time-Complexity => O(log(b))
