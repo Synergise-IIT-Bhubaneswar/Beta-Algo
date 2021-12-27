@@ -35,7 +35,7 @@ def display_matrix(mat, size):
         print()
 
 
-if __name__ == '_main_':
+if __name__ == '__main__':
     size = int(input('Enter size: '))
     mat = []
     for i in range(size):
