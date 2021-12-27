@@ -47,7 +47,7 @@ public class warshall
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
-        warshall obj=new warshall();
+        warshall obj=new warshall(); //Creation of an object
         System.out.println("Enter the number of vertices: ");
         obj.size=sc.nextInt();
         int[][] graph=new int[obj.size][obj.size];
