@@ -54,3 +54,34 @@ class DFS_directed_graph
 		obj.DFSalgo(1); // Function calling
 	}
 }
+/*
+Time Complexity: O(vertices + edges)
+Space Complexity: O(vertices)
+Sample I/O:
+INPUT:
+Enter the value of vertices: 
+4
+Enter the number of edges: 
+6
+Enter edge 0: 
+0
+1
+Enter edge 1: 
+0
+2
+Enter edge 2: 
+1
+2
+Enter edge 3: 
+2
+0
+Enter edge 4: 
+2
+3
+Enter edge 5: 
+3
+3
+OUTPUT:
+DFS starting from vertex 1 is: 
+1 2 0 3
+*/
