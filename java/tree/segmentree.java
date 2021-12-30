@@ -1,3 +1,10 @@
+/*Segment Tree is a basically a binary tree used for storing the intervals or segments. 
+Each node in the segment tree represents an interval.When there is need to update an interval 
+in the range in Lazy propagation method, instead of updating each element one by one which will
+turn complexity O(n) we will update a node and mark its child that it needs to be updated and update it when needed. 
+For this we need an array of the same size as that of segment tree. Initially all the elements of the array will be 0 representing that there is no pending update. 
+If there is non-zero element then this element needs to update node  in the segment tree before making any query operation. */
+
 class segmentree {
     final int MAX = 1000; // Max tree size
     int tree[] = new int[MAX]; // stors segment tree
